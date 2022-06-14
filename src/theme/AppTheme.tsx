@@ -1,8 +1,8 @@
 import { StyleSheet, Button } from 'react-native';
 
 export const styles = StyleSheet.create({
-    globalMargin: {marginHorizontal: 20},
-    title:{
+    globalMargin: { marginHorizontal: 20 },
+    title: {
         fontSize: 20,
         marginBottom: 10,
     },
@@ -19,5 +19,25 @@ export const styles = StyleSheet.create({
         color: 'black',
         fontSize: 20,
         fontWeight: 'bold'
+    },
+    skinContainer: {
+        alignItems: 'center',
+        marginTop: 20,
+    },
+    Skin: {
+        width: 150,
+        height: 150,
+        borderRadius: 100
+    },
+    containerMenu: {
+        marginVertical: 30,
+        marginHorizontal: 50,
+    },
+    buttonMenu: {
+        marginVertical: 10,
+    },
+    buttonText: {
+        fontSize: 20,
     }
+
 });
